@@ -66,7 +66,7 @@ function loadEpisodes(e) {
             <th>#</th>
             <th>Title</th>
             <th>Type</th>
-            <th>Airdate</th>
+            <th id="airdate">Airdate</th>
         </tr>`;
 
             for (let i = 0; i < episodes.length; i++) {

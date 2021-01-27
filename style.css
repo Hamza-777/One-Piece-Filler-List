@@ -52,6 +52,10 @@ p {
     color: red;
 }
 
+#airdate {
+    width: auto;
+}
+
 
 /* Utilities */
 
@@ -104,6 +108,7 @@ td,
 th {
     text-align: center;
     padding: 10px;
+    width: auto;
 }
 
 .green {
