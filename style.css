@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,8 @@
 }
 
 body {
-    font-family: 'Hachi Maru Pop', cursive;
+    /* font-family: 'Hachi Maru Pop', cursive; */
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -82,7 +84,8 @@ p {
 }
 
 button {
-    font-family: 'Hachi Maru Pop', cursive;
+    /* font-family: 'Hachi Maru Pop', cursive; */
+    font-family: 'Roboto', sans-serif;
     border: none;
     cursor: pointer;
     height: 30px;
