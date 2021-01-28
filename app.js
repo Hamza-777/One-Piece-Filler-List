@@ -97,5 +97,7 @@ function loadEpisodes(e) {
 
     dropdown.innerHTML = output;
 
+    dropdown.disabled = false;
+
     xhr.send();
 };
