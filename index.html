@@ -13,7 +13,7 @@
     <div class="navbar">
         <div class="container flex">
             <nav>
-                <a href="#">
+                <a href="https://en.wikipedia.org/wiki/One_Piece" target="_blank">
                     <h1>One Piece Filler List</h1>
                 </a>
             </nav>
@@ -81,7 +81,13 @@
     <div class="episodes my2">
         <div class="container flex">
             <h1>One Piece Episode List</h1>
-            <button id="fetch">Get Episodes</button>
+            <div class="flex">
+                <button id="fetch">Get Episodes</button>
+                <label>Jump to episode: </label>
+                <select id="drop" onchange="location = this.value;">
+                    <!-- <option class="opt" value="#number1">1</option>    -->
+                </select>
+            </div>
             <table class="card" id="table">
                 <!-- <tr id="head">
                     <th>#</th>

@@ -58,11 +58,29 @@ p {
     width: auto;
 }
 
+#drop {
+    height: 30px;
+    margin-left: 10px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.episodes .container .flex {
+    justify-content: space-between;
+}
+
+.opt {
+    padding: 10px;
+    font-size: 20px;
+}
+
 
 /* Utilities */
 
 .container {
-    max-width: 1700px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 20px;
     height: 100%;
@@ -95,6 +113,7 @@ button {
     background-color: #eb5e0b;
     /* background-color: black; */
     color: white;
+    font-size: 20px;
 }
 
 button:focus {
@@ -112,6 +131,7 @@ th {
     text-align: center;
     padding: 10px;
     width: auto;
+    font-size: 20px;
 }
 
 .green {
@@ -305,5 +325,8 @@ button:hover {
     h1,
     h2 {
         font-size: 20px;
+    }
+    button {
+        font-size: 15px;
     }
 }

@@ -4,6 +4,7 @@ const filler = document.getElementById('filler');
 const canon = document.getElementById('canon');
 const fetch = document.getElementById('fetch');
 const table = document.getElementById('table');
+const dropdown = document.getElementById('drop');
 
 // Function to add active class to buttons
 const addActive = function(input) {
@@ -72,7 +73,7 @@ function loadEpisodes(e) {
             for (let i = 0; i < episodes.length; i++) {
                 output += `
               <tr>
-                    <td>${episodes[i].id}</td>
+                    <td id="number${episodes[i].id}">${episodes[i].id}</td>
                     <td>${episodes[i].title}</td>
                     <td>
                         <div class="${episodes[i].class}">${episodes[i].type}</div>
@@ -86,5 +87,15 @@ function loadEpisodes(e) {
         }
     }
 
+    let output = ``;
+
+    for (let i = 1; i < 962; i++) {
+        output += `
+        <option class="opt" value="#number${i}">${i}</option>     
+        `;
+    }
+
+    dropdown.innerHTML = output;
+
     xhr.send();
-}
+};
