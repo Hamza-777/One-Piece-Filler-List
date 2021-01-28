@@ -297,4 +297,13 @@ button:hover {
     .list .container .flex {
         flex-direction: column;
     }
+    p,
+    td,
+    th {
+        font-size: 15px;
+    }
+    h1,
+    h2 {
+        font-size: 20px;
+    }
 }
