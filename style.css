@@ -9,6 +9,8 @@
 body {
     /* font-family: 'Hachi Maru Pop', cursive; */
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    animation: load 2s ease-in;
 }
 
 a {
@@ -328,5 +330,14 @@ button:hover {
     }
     button {
         font-size: 15px;
+    }
+}
+
+@keyframes load {
+    0% {
+        top: -1000px;
+    }
+    100% {
+        top: 0;
     }
 }
