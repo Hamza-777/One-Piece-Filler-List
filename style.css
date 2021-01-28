@@ -137,13 +137,13 @@ th {
 }
 
 .green {
-    background-color: green;
+    background-color: #61b15a;
     border-radius: 5px;
     color: white;
 }
 
 .red {
-    background-color: red;
+    background-color: #ec524b;
     border-radius: 5px;
     color: white;
 }
