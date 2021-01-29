@@ -29,12 +29,18 @@ p {
     letter-spacing: 1.5px;
 }
 
+
+/* Navbar */
+
 .navbar {
     background-color: #eb5e0b;
     height: 50px;
     color: white;
     border-bottom: 2px solid black;
 }
+
+
+/* List */
 
 .list>.flex {
     flex-direction: column;
@@ -49,6 +55,21 @@ p {
     color: #333;
 }
 
+.filler>h2,
+.filler>p {
+    color: #ec524b;
+}
+
+.manga,
+.mixed,
+.filler,
+.anime {
+    width: 100%;
+}
+
+
+/* Episodes */
+
 #head {
     background-color: #0a043c;
     color: white;
@@ -56,11 +77,6 @@ p {
 
 .episodes>.flex {
     flex-direction: column;
-}
-
-.filler>h2,
-.filler>p {
-    color: #ec524b;
 }
 
 #airdate {
@@ -86,15 +102,11 @@ select:focus {
     font-size: 15px;
 }
 
-.manga,
-.mixed,
-.filler,
-.anime {
-    width: 100%;
-}
-
 
 /* Utilities */
+
+
+/* Classes */
 
 .container {
     max-width: 1800px;
@@ -118,6 +130,9 @@ select:focus {
     margin: 10px;
 }
 
+
+/* Buttons */
+
 button {
     /* font-family: 'Hachi Maru Pop', cursive; */
     font-family: 'Roboto', sans-serif;
@@ -138,6 +153,19 @@ button:focus {
     outline: none;
 }
 
+button:hover {
+    background-color: #0a043c;
+    color: white;
+}
+
+.active {
+    background-color: white;
+    color: #333;
+}
+
+
+/* Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -151,6 +179,7 @@ th {
     width: auto;
     font-size: 20px;
     letter-spacing: 1.5px;
+    border-bottom: 1px solid gray;
 }
 
 .green {
@@ -165,19 +194,8 @@ th {
     color: white;
 }
 
-.active {
-    background-color: white;
-    color: #333;
-}
 
-td {
-    border-bottom: 1px solid gray;
-}
-
-button:hover {
-    background-color: #0a043c;
-    color: white;
-}
+/* Label */
 
 label {
     font-size: 20px;
