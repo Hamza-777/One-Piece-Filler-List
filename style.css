@@ -100,6 +100,7 @@ select:focus {
 .opt {
     padding: 10px;
     font-size: 15px;
+    /* margin: auto; */
 }
 
 .episodes {
