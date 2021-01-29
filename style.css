@@ -102,6 +102,10 @@ select:focus {
     font-size: 15px;
 }
 
+.episodes {
+    overflow: auto;
+}
+
 
 /* Utilities */
 
